@@ -23,7 +23,7 @@ steps:
   settings:
 #    username: kevinbacon
 #    password: pa55word
-    repo: localhost:5000
+    repo: d7142bb9416b.ngrok.io/mygo
     tags: latest
 
 volumes:
