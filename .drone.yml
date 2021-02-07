@@ -18,6 +18,14 @@ steps:
   commands:
   - go build
 
+- name: docker  
+  image: plugins/docker
+  settings:
+#    username: kevinbacon
+#    password: pa55word
+    repo: localhost:5000
+    tags: latest
+
 volumes:
 - name: deps
   temp: {}
